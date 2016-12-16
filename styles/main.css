@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	position: fixed;
+	
+}
+header {
+	vertical-align: middle;
+	height: 45px;
+	width: 100%;
+	background-color: #EEEEEE;
+	position: relative;
+	font-size: 18px;
+	
+	
+}
+
+nav {
+	position: absolute;
+	right: 75;
+}
+
+
+
+header p, header nav {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+header p {
+	margin: 0;
+	line-height: 45px;
+}
+
+nav ul {
+	display: inline-block;
+	right: 75px;
+	padding-left: 0;
+	margin: 0;
+
+	
+}
+header li {
+	height: 100%;
+	line-height: 45px;
+	display: inline-block;
+
+
+}
+header a {
+	text-decoration: none;
+	color: purple;
+	margin-right: 5px;
+}
+main {
+	padding-top: 7%;
+	padding-left: 7%;
+}
+.search-area {
+	height: 30px;
+	margin-bottom: 30px;
+}
+input, button, img {
+	height: 100%;
+}
+button {
+	border: 1px #DDDDDD solid;
+	border-radius: 3px;
+	background-color: white;
+}
+input {
+	vertical-align: top;
+	padding: 0 5px 0 10px;
+	width: 400px;
+	border: 1px #DDDDDD solid;
+	border-radius: 3px;
+}
+.pages {
+	border: 1px #DDDDDD solid;
+	border-radius: 3px;
+	width: 275px;
+	margin-bottom: 45px;
+}
+.box {
+	padding: 10px;
+	display: inline-block;
+	
+}
+
+.middle {
+	border-left: 1px #DDDDDD solid;
+	border-right: 1px #DDDDDD solid;
+}
+.listings {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 15px;
+}
+.listing {
+	margin-bottom: 15px;
+}
+.date, .location {
+	color: #999;
+
+}
+.listing a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
